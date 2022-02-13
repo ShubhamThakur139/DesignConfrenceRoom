@@ -26,6 +26,7 @@ public class RunnerClass {
 
         /** Cancel Slot to given Confrence room **/
         buildingSystem.cancelSlot("12:14",b1,fl1,c1);
+        buildingSystem.cancelSlot("4:9",b1,fl1,c2);
 
         /** List all Bookings of a given Building **/
         buildingSystem.allBookings(b1,fl1);
