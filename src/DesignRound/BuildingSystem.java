@@ -30,7 +30,7 @@ public class BuildingSystem {
         }
     }
 
-    /** Get all Confrence room in a given building **/
+    /** Get all Conference room in a given building **/
     public void getAllConfrooom(Building b1) {
         if(buildingList.contains(b1)){
             System.out.println(b1);
@@ -39,7 +39,7 @@ public class BuildingSystem {
         }
     }
 
-    /** Get all Bookings of confrence room **/
+    /** Get all Bookings of conference room **/
     public void allBookings(Building b1, Floor fl1) {
         if(buildingList.contains(b1)){
             if(b1.floorList.contains(fl1)){
@@ -67,7 +67,7 @@ public class BuildingSystem {
                         System.out.println("You can Book Max 12hrs!!");
                     }
                 }else{
-                    System.out.println("Confrence Room doesn't exist! Enter Valid Confrence room");
+                    System.out.println("Conference Room doesn't exist! Enter Valid Conference room");
                 }
             }else{
                 System.out.println("Floor doesn't exist! Enter Valid Floor");
@@ -88,7 +88,7 @@ public class BuildingSystem {
                         System.out.println("Given Slot is Not Booked");
                     }
                 }else{
-                    System.out.println("Confrence Room doesn't exist! Enter Valid Confrence room");
+                    System.out.println("Conference Room doesn't exist! Enter Valid Conference room");
                 }
             }else{
                 System.out.println("Floor doesn't exist! Enter Valid Floor");
